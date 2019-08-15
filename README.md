@@ -38,7 +38,7 @@ while True:
 
     contours,hierarchy = cv2.findContours(closing, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-    cv2.drawContours(frame1, contours , -1, (0,255,0),3)
+    cv2.drawContours(frame1, contours , -1, (0,255,0),2)
 
     img = cv2.merge((grayThres,grayThres,grayThres))
     
