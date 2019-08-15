@@ -1,5 +1,5 @@
 # motion-detection-using-OpenCV
-This program senses the motion of an object moving infront of webcam.
+This program senses the motion of an object, moving infront of webcam.
 
 
 import cv2
